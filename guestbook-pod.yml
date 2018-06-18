@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: guestbook-app
-      image: kubernetes/guestbook
+      image: kubernetes/guestbook:v2
       ports:
         - containerPort: 80
