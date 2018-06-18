@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: redis
   labels:
-    name: redis-service
+    name: redis-master
     app: guestbook-app
 spec:
   ports:
