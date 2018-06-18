@@ -10,4 +10,4 @@ spec:
     - name: guestbook-app
       image: kubernetes/guestbook
       ports:
-        -containerPort: 80
+        - containerPort: 80
